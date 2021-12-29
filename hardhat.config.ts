@@ -25,5 +25,10 @@ export default {
       chainId: 97,
       accounts,
     },
+    avax_test: {
+      url: 'https://api.avax-test.network/ext/bc/C/rpc',
+      chainId: 43113,
+      accounts,
+    },
   },
 };

@@ -22,6 +22,12 @@ const networkConfigs: { [name: string]: NetworkConfig } = {
     dishPerBlock: "40000000000000000000",
     startBlock: "15128225",
   },
+  avax_test: {
+    dishAddress: "0xa53C113d8bE8930aa8430806F837277dAa43b4e4",
+    portionAddress: "0x6865752fca5DC5Ee1C3d863Dd0D1fc3Aab2D4295",
+    dishPerBlock: "40000000000000000000",
+    startBlock: "4169256",
+  },
 };
 
 async function main() {

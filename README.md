@@ -30,7 +30,20 @@ yarn hardhat run --network bsc_test scripts/deploy_tokens.ts
 yarn hardhat run --network bsc_test scripts/deploy_chef.ts
 ```
 
+### AVAX Testnet
+- Deployed DishToken: [0xa53C113d8bE8930aa8430806F837277dAa43b4e4][5]
+- Deployed PortionToken: [0x6865752fca5DC5Ee1C3d863Dd0D1fc3Aab2D4295][6]
+- Deployed BuffetChef: [0xC5482641cdec925E6777B5B8Cf58b50A786a2689][7]
+
+```sh
+yarn hardhat run --network avax_test scripts/deploy_tokens.ts
+yarn hardhat run --network avax_test scripts/deploy_chef.ts
+```
+
 [1]: https://github.com/pancakeswap/pancake-farm
 [2]: https://testnet.bscscan.com/address/0xa53C113d8bE8930aa8430806F837277dAa43b4e4#code
 [3]: https://testnet.bscscan.com/address/0x6865752fca5DC5Ee1C3d863Dd0D1fc3Aab2D4295#code
 [4]: https://testnet.bscscan.com/address/0xC5482641cdec925E6777B5B8Cf58b50A786a2689#code
+[5]: https://testnet.snowtrace.io/address/0xa53C113d8bE8930aa8430806F837277dAa43b4e4#code
+[6]: https://testnet.snowtrace.io/address/0x6865752fca5DC5Ee1C3d863Dd0D1fc3Aab2D4295#code
+[7]: https://testnet.snowtrace.io/address/0xC5482641cdec925E6777B5B8Cf58b50A786a2689#code

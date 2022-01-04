@@ -20,13 +20,8 @@ export default {
   },
   networks: {
     hardhat: {},
-    bsc_test: {
-      url: "https://data-seed-prebsc-1-s1.binance.org:8545/",
-      chainId: 97,
-      accounts,
-    },
     avax_test: {
-      url: 'https://api.avax-test.network/ext/bc/C/rpc',
+      url: "https://api.avax-test.network/ext/bc/C/rpc",
       chainId: 43113,
       accounts,
     },
